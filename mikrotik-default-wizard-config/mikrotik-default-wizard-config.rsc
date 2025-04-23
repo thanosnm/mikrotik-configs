@@ -11,9 +11,6 @@
 :global dns2 "1.1.1.1"
 :global allowedAccess "192.168.20.0/24"
 
-# ------------------- RESET (optional) -------------------
-# /system reset-configuration no-defaults=yes skip-backup=yes
-
 # ------------------- INTERFACES -------------------
 /interface bridge add name=$lanBridge
 
@@ -65,7 +62,10 @@ add chain=input in-interface=$wanIf action=drop comment="Block WAN Access"
 /system identity set name="MikroTik-Router"
 /system clock set time-zone-name=Europe/Athens
 
-# ✅ DONE
 
 /system note
-set show-at-login=yes note="MikroTik Default ConfigurationPowered by Thanos Pournarashttps://thanosnm.github.ioScripts | Failover | Backups | Monitoring"
+set show-at-login=yes note="MikroTik Default Configuration
+Powered by Thanos Pournaras
+https://thanosnm.github.io
+Scripts | Failover | Backups | Monitoring
+"
