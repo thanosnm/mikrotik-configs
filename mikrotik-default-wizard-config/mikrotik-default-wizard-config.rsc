@@ -62,7 +62,6 @@ add chain=input in-interface=$wanIf action=drop comment="Block WAN Access"
 /system identity set name="MikroTik-Router"
 /system clock set time-zone-name=Europe/Athens
 
-# ✅ DONE
 
 /system note
 set show-at-login=yes note="MikroTik Default Configuration
