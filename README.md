@@ -1,3 +1,6 @@
+<!-- keywords: mikrotik, blacklist, routeros, address-list, firewall, threat feeds, spamhaus, abuse.ch, ip blocklist, python mikrotik script -->
+
+
 # 🧰 MikroTik Base Configurations
 
 🇬🇷 *English below*
